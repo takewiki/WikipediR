@@ -4,7 +4,8 @@
 \alias{query}
 \title{base query function}
 \usage{
-query(url, out_class, clean_response = FALSE, query_param = list(), ...)
+query(url, out_class, clean_response = FALSE, query_param = list(),
+  ...)
 }
 \arguments{
 \item{url}{a URL body}
