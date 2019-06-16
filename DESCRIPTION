@@ -1,12 +1,11 @@
-Package: WikipediR
+Package: MediaWikiR
 Type: Package
 Title: A MediaWiki API Wrapper
-Version: 1.6.0
-Date: 2017-11-06
-Author: Oliver Keyes [aut, cre], Brock Tilbert [ctb], Clemens Schmid [aut]
-Maintainer: Oliver Keyes <ironholds@gmail.com>
-Description: A wrapper for the MediaWiki API, aimed particularly at the
-    Wikimedia 'production' wikis, such as Wikipedia. It can be used to retrieve
+Version: 2.0.0
+Date: 2019-02-11
+Author: Oliver Keyes [aut, cre], Brock Tilbert [ctb], Clemens Schmid [aut],Hawken Hu [aut]
+Maintainer: hulilei <hulilei@takewiki.com.cn>
+Description: A wrapper for the MediaWiki API, It can be used to retrieve
     page text, information about users or the history of pages, and elements of
     the category tree.
 License: MIT + file LICENSE
@@ -19,7 +18,7 @@ Suggests:
     knitr,
     WikidataR,
     pageviews
-BugReports: https://github.com/Ironholds/WikipediR/issues
-URL: https://github.com/Ironholds/WikipediR/
+BugReports: https://github.com/takewiki/WikipediR/issues
+URL: https://github.com/takewiki/WikipediR/
 VignetteBuilder: knitr
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0

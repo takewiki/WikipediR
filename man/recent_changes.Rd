@@ -6,9 +6,10 @@
 \usage{
 recent_changes(language = NULL, project = NULL, domain = NULL,
   properties = c("user", "userid", "comment", "parsedcomment", "flags",
-  "timestamp", "title", "ids", "sizes", "redirect", "loginfo", "tags", "sha1"),
-  type = c("edit", "external", "new", "log"), tag = NULL, dir = "newer",
-  limit = 50, top = FALSE, clean_response = FALSE, ...)
+  "timestamp", "title", "ids", "sizes", "redirect", "loginfo", "tags",
+  "sha1"), type = c("edit", "external", "new", "log"), tag = NULL,
+  dir = "newer", limit = 50, top = FALSE, clean_response = FALSE,
+  ...)
 }
 \arguments{
 \item{language}{The language code of the project you wish to query,
