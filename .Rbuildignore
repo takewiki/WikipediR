@@ -3,3 +3,4 @@
 ^\.git
 ^CONDUCT\.md$
 .travis.yml
+^data-raw$
